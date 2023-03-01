@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
+  bool isDribble = false;
    
     void Start()
     {
@@ -14,7 +15,10 @@ public class Ball : MonoBehaviour
    
     void Update()
     {
-        
+     if (isDribble)
+     {
+        GetComponent<Dribble>().dribbleActive();
+     }   
     }
 
 /* Checks against else-if statement for collision logic */
@@ -24,7 +28,8 @@ public class Ball : MonoBehaviour
     switch (other.gameObject.layer) {
       case 3: /* 3 is layer: Characters */
         Debug.Log("PLAYER COLLISION: DRIBBLE");
-        GetComponent<Dribble>().dribbleActive();
+        // GetComponent<Dribble>().dribbleActive();
+        isDribble = true;
         break;
       case 6: /* 6 is layer: Goals */
         Debug.Log("GOAL REGISTERED");
