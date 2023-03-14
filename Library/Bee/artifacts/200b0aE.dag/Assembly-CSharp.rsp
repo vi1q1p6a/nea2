@@ -352,6 +352,7 @@
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/CharacterMovementScript.cs"
 "Assets/Scripts/Dribble.cs"
+"Assets/Scripts/Movement.cs"
 "Assets/Scripts/Player.cs"
 -langversion:9.0
 

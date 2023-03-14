@@ -189,6 +189,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2370942974211689912, guid: b6ec5258a23b14b2cb7bb9f7aafde61c, type: 3}
   m_PrefabInstance: {fileID: 95104950}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &143728804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7940990570959381914, guid: 0520462f2b3434a30b8588a7fc1ebd13, type: 3}
+  m_PrefabInstance: {fileID: 7940990571422583013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &143728813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143728804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea46a7dbdad7240adb4deffab8803507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 13.5
+  rotationSpeed: 135
 --- !u!1001 &212425746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1103,6 +1122,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7940990570959381856, guid: 0520462f2b3434a30b8588a7fc1ebd13, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7940990570959381857, guid: 0520462f2b3434a30b8588a7fc1ebd13, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1151,6 +1174,14 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 7940990570959381858, guid: 0520462f2b3434a30b8588a7fc1ebd13, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940990570959381859, guid: 0520462f2b3434a30b8588a7fc1ebd13, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7940990570959381859, guid: 0520462f2b3434a30b8588a7fc1ebd13, type: 3}
       propertyPath: playerCamera
       value: 
@@ -1159,5 +1190,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7940990570959381859, guid: 0520462f2b3434a30b8588a7fc1ebd13, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0520462f2b3434a30b8588a7fc1ebd13, type: 3}
